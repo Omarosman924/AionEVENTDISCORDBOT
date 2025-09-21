@@ -82,14 +82,14 @@ The bot maintains a comprehensive weekly schedule with events covering:
    ```
 
 3. **Configure your Discord bot token**
-   - Edit `w.js` and replace the token in the last line:
+   - Edit `` and replace the token in the last line:
    ```js
    client.login('YOUR_BOT_TOKEN_HERE');
    ```
 
 4. **Run the bot**
    ```bash
-   node w.js
+   node 
    ```
 
 ### Discord Bot Setup
@@ -97,7 +97,7 @@ The bot maintains a comprehensive weekly schedule with events covering:
 1. Go to [Discord Developer Portal](https://discord.com/developers/applications)
 2. Create a new application
 3. Go to "Bot" section and create a bot
-4. Copy the bot token and add it to `w.js`
+4. Copy the bot token and add it to `index.js`
 5. In "OAuth2" → "URL Generator":
    - Select `bot` scope
    - Select `Send Messages`, `Read Message History` permissions
@@ -151,7 +151,7 @@ When this user sends any message, the bot responds with: "Bruh... practice first
 
 ```
 bot/
-├── w.js              # Main bot file
+├── index.js              # Main bot file
 ├── package.json      # Project dependencies
 ├── package-lock.json # Dependency lock file
 ├── README.md         # This file
@@ -188,7 +188,7 @@ bot/
 
 ### Logs and Debugging
 
-The bot runs in console mode. Check the terminal/command prompt for any error messages when running `node w.js`.
+The bot runs in console mode. Check the terminal/command prompt for any error messages when running `node index.js`.
 
 ## License
 
