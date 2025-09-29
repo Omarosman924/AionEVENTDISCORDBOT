@@ -193,10 +193,10 @@ const specialUserId = "11873605050488650506816"; // ID بتاعك
 client.on('messageCreate', async (message) => {
   if (message.author.bot) return;
 
-  // ✅ لو الشخص المميز كتب حاجة
+  // ✅ special person
   if (message.author.id === specialUserId) {
     message.reply("Bruh... practice first before you embarrass yourself 🤡");
-  //  return; // عشان مايكملش باقي الكود
+  //  return; // 
   }
 
   // ✅ !next command
@@ -260,4 +260,5 @@ client.on('messageCreate', async (message) => {
 
 
 client.login("Your Bot Token Here"); 
+
 
